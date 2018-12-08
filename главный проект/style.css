@@ -1,0 +1,797 @@
+a{
+    text-decoration:none;
+}
+html, body{
+    min-height: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+
+@font-face{
+    font-family: :witcher-font;
+}
+.corner {
+    width: 54px;
+    height: 54px;
+    position: absolute;
+    background: url(./images/buttons.jpg) no-repeat;
+}
+
+
+#overlay{
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    z-index: 4;
+}
+
+.corner-left-top{
+     top: 13px;
+     left: 13px;
+     background-position: 0 -890px;
+     
+}
+.corner-right-top{
+      top:13px;
+      right: 13px;
+       background-position: 0 -890px;
+}
+.corner-left-bottom{
+    bottom:13px;
+    left: 13px;
+    background-position: 0 -890px;
+}
+.corner-right-bottom{
+    bottom:13px;
+    right: 13px;
+    background-position: 0 -890px;
+}
+.horizontal_line{
+    position: absolute;
+    height: 1px;
+    background-color: rgba(142,142,142,0.5);
+}
+.left_top{
+    top: 40px;
+    left: 70px;
+    right: 50px;
+
+}
+.right_top {
+    top: 40px;
+    left: 70px;
+    right: 50px;
+}
+.vertical_line {
+   width: 1px;
+   background-color: rgba(142,142,142,0.5);
+   top: 70px;
+   bottom: 70px;
+   position: absolute;
+}
+.left_center {
+   left: 40px; 
+}
+ 
+.right_center{
+    right: 40px;
+}
+.left_bottom{
+    margin-right: 40px;
+    bottom: 40px;
+    left: 70px;
+    right: 50%;
+}
+.right_bottom{
+    margin-left: 40px;
+    bottom: 40px;
+    right: 70px;
+    left: 50%;
+}
+.scroll_down{
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 4;
+ 
+}
+.scroll_down span{
+    display: block;
+}
+.scroll_button{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    background: url(./images/buttons.jpg) no-repeat;
+    background-position: 0 -610px; 
+    border: none;
+    cursor: pointer;
+}
+#bgVideo{
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+
+    
+}
+#main_bg{
+    position: absolute;
+    background: url(./images/smallpenis.jpg);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+
+section#main {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  #menu {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 40px;
+  }
+  
+  .menu_items ul {
+    display: flex;
+  }
+  
+  .menu_items ul li a {
+    color: #808080;
+    font-size: 12px;
+  }
+  .menu_items ul li {
+    list-style: none;
+    margin-left: 10px;
+    padding: 8px 5px;
+    transition: 0.2s;
+  }
+  
+  .menu_items ul li:hover {
+    background: black;
+  }
+  
+  .menu_items ul li:hover a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .logo {
+    position: absolute;
+    top: 15%;
+    z-index: 2;
+    width: 100%;
+    text-align: center;  
+    color: yellow;
+  }
+
+  .logo img{
+      max-width: 400px;
+  }
+
+  .logo_title{
+     display:block;
+     text-transform: uppercase;
+     font-weight: 700;
+ 
+  }
+  
+  .logo h1{
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+      display: inline-block;
+  }
+  #expensions{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .expension_rows{
+      width: 53%;
+
+  }
+
+  .heart_of_stone img{
+    width:320px;
+    margin: 370px 0px 0px 50px;
+  }
+  .blood_and_wine img{
+    width:320px;
+    margin: 370px 0px 0px 50px;
+  }
+
+ .heart_of_stone{
+    background:url(./images/witcher.jpg);
+    background-size: 100%;
+}
+
+.buttons a{
+    color: #000;
+    text-transform:uppercase; 
+}
+
+.cont a{
+    color: #000;
+    text-transform:uppercase; 
+}
+
+.buttons{
+    width: 345px;
+    height: 33px;
+    background: url(./images/buttons.jpg);
+    background-position: 40px -745px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cont{
+   text-align: center;
+   width: 345px;
+   height: 13px;
+   background: url(./images/buttons.jpg);
+   background-position: 40px -745px;
+   font-size: 20px;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   margin: 0 auto;
+}
+
+ .blood_and_wine{
+    background:url(./images/bat.jpg);
+    background-size: 100%;
+}
+
+.description{
+    text-align: center;
+    background: url(./images/whiteFon.jpg)
+}
+
+.hearts{
+    margin: 140px 0px 0px 50px;
+}
+
+.description img{
+    width:320px;
+}
+.plus{
+    font-size: 30px;
+}
+.thing{
+    margin-bottom: 10px;
+}
+
+#witcher1{
+    height:600px ;
+    background: url(./images/bg-openworld.jpg);
+    background-size: 1400px;
+    padding: 100px;
+
+}
+
+h2{
+    text-align:center; 
+}
+
+.pic {
+    width: 620px;
+    height: 100px;
+    text-align: center;
+    margin: 50px 0px 0px 50px;
+
+
+}
+
+.line{
+    width: 620px;
+    background: url(./images/buttons.jpg)no-repeat ;
+    height: 12px;
+    background-position: 50% -1777px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    width: 620px;
+    height: 180px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container a{
+    position: absolute;
+    top: 0;
+    background: url(./images/buttons.jpg);
+    background-position: 0 -1800px;
+    width: 304px;
+    height: 176px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+} 
+
+
+.News{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    margin-right: 15px;
+}
+
+.News span{
+    display: block;
+    position: relative;
+    top: 130px;
+
+}
+
+#witcher2{
+    height:600px ;
+    background: url(./images/bg-monsterhunter.jpg);
+    background-size: 1400px;
+    padding: 100px;
+
+}
+
+
+
+.pic2 {
+    width: 620px;
+    height: 100px;
+    text-align: center;
+    margin: 50px 0px 0px 50px;
+}
+
+.pic2 h2{
+    color: white;
+}
+
+.line2{
+    width: 620px;
+    background: url(./images/buttons.jpg)no-repeat ;
+    height: 12px;
+    background-position: 50% -1789px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+
+.container2{
+    width: 620px;
+    height: 180px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container2 a{
+    position: absolute;
+    top: 0;
+    background: url(./images/buttons.jpg);
+    background-position: 0 -1800px;
+    width: 304px;
+    height: 176px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+} 
+
+
+.News2{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    margin-right: 15px;
+}
+
+.News2 span{
+    display: block;
+    position: relative;
+    top: 130px;
+}
+
+#witcher3{
+    height:600px ;
+    background: url(./images/bg-story.jpg);
+    background-size: 1400px;
+    padding: 100px;
+
+}
+
+
+
+.pic3 {
+    width: 620px;
+    height: 100px;
+    text-align: center;
+    margin: 50px 0px 0px 50px;
+}
+
+.pic3 h2{
+    color: white;
+}
+
+.line3{
+    width: 620px;
+    background: url(./images/buttons.jpg)no-repeat ;
+    height: 12px;
+    background-position: 50% -1789px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+
+.container3{
+    width: 620px;
+    height: 180px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 a{
+    position: absolute;
+    top: 0;
+    background: url(./images/buttons.jpg);
+    background-position: 0 -1800px;
+    width: 304px;
+    height: 176px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+} 
+
+
+.News3{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    margin-right: 15px;
+}
+
+.News3 span{
+    display: block;
+    position: relative;
+    top: 130px;
+}
+
+
+h1{
+    text-align:center; 
+    font-family: monospace;
+    font-weight:lighter; 
+    font-size: 30px;
+}
+
+.back{
+    padding-inline-start: 300px;
+}
+
+.foto2 {
+    width: 620px;
+    text-align: center;
+    margin: 0px 0px 0px 50px;
+
+}
+
+.foto3 h2{
+    width: 620px;
+    text-align: center;
+    margin: 0px 0px 0px 50px;
+    text-align:center; 
+    font-family: monospace;
+    font-weight:lighter; 
+    font-size: 30px;
+    
+}
+
+
+
+
+.cd2{
+    width: 620px;
+    height: 180px;
+    margin: 0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cd2 a img{
+    width: 120px;
+    height: 170px;
+}
+
+
+.pack{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 180px;
+    margin-right: 15px;
+}
+
+.cd3{
+    width: 100%;
+    height: 239px;
+    background: url(./images/background-a.jpg)no-repeat;
+    background-position: center;
+    background-size: 900px;
+  
+}
+
+
+
+
+.bgwitch{
+    height:750px ;
+    background: url(./images/bg-news.jpg);
+    background-size:1400px;
+}
+
+ .cover{
+    background: url(./images/apla-news.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.edits {
+    padding-top: 100px;
+    width: 1250px;
+    height: 100px;
+    text-align: center;
+    margin: 80px 0px 0px 50px;
+    color: white;
+
+}
+
+.line5{
+    width: 1250px;
+    background: url(./images/buttons.jpg)no-repeat ;
+    height: 12px;
+    background-position: 50% -1789px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+
+.container99{
+    width: 1250px;
+    height: 280px;
+    margin:0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container99 a{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 280px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    line-height: 1.2;
+    font-weight: lighter;
+ 
+} 
+
+
+.News99{
+    display: inline-block;
+    position: relative;
+    background-color: rgba(255,255,255,0.5);
+    padding: 8px;
+    width: 312px;
+    height: 256px;
+    margin-right: 5px;
+}
+
+.News99 h4{
+    margin-top: 60px ;
+    color: #777;
+    font-weight: lighter;
+}
+
+.News99 span{
+    display: block;
+    position: relative;
+    top: 130px;
+    font-weight: lighter;
+}
+
+.News99 img{
+    width: 296px;
+    height: 166px;
+}
+
+.background {
+    background: url(./images/bg-map.jpg)no-repeat ;
+    background-size: 1400px;
+    width: 1349px;
+    height: 800px;
+}
+
+.backmap {
+    background: url(./images/apla-map.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.edits99 {
+    padding-top: 250px;
+    width: 1250px;
+    height: 100px;
+    text-align: center;
+    margin: 0px 0px 0px 50px;
+    color: white;
+
+}
+
+.line55{
+    width: 1250px;
+    background: url(./images/buttons.jpg)no-repeat ;
+    height: 12px;
+    background-position: 50% -1789px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.upbutton{
+    position: absolute;
+    width: 1250px;
+    height:80px;
+    background: url(./images/button-view.jpg)no-repeat;
+    background-position: 0 -517px;
+    left: 545px;
+    margin-top: 30px;
+
+}
+
+
+.bgwitch8{
+    height:750px ;
+    background: url(./images/bg-last.jpg);
+    background-size:1400px;
+}
+
+ .cover8{
+    background: url(./images/apla-news.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+
+.edits8 {
+    padding-top: 150px;
+    width: 1250px;
+    height: 100px;
+    text-align: center;
+    margin: 0px 0px 0px 50px;
+    color: white;
+
+}
+
+.line8{
+    width: 1250px;
+    background: url(./images/buttons.jpg)no-repeat ;
+    height: 12px;
+    background-position: 50% -1789px;
+    position: absolute;
+    margin-bottom: 20px;
+}
+
+.media_menu{
+    width: 540px;
+    margin: 0 auto 20px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+
+
+
+.media_menu li {
+    background:url(./images/buttons.jpg) no-repeat;
+    background-position: 0 -300px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color:white;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+    width: 166px;
+    height: 40px;
+}
+
+.media_menu li.media_menu_item_video{
+    background:url(./images/buttons.jpg) no-repeat;
+    background-position: 0 -340px;
+}
+
+
+.container88{
+    width: 1250px;
+    height: 280px;
+    margin:0px 50px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container88 a{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 280px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    line-height: 1.2;
+    font-weight: lighter;
+ 
+} 
+
+
+.News88{
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0,0,0,0.6);
+    padding: 8px;
+    width: 312px;
+    height: 256px;
+    margin-right: 5px;
+}
+
+
+.News88 span{
+    display: block;
+    position: relative;
+    top: 130px;
+    font-weight: lighter;
+}
+
+.News88 img{
+    width: 296px;
+    height: 166px;
+}
